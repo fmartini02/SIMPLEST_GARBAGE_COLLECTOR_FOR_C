@@ -120,13 +120,3 @@ These are commonly found in a standard 42-style `libft`.
 ## 📜 License
 
 MIT License — free to use, modify, and distribute.
-
----
-
-If you want, I can also generate:
-
-✅ A prettier README with badges
-✅ A version including diagrams
-✅ A version with code blocks themed as 42 norm
-✅ A C header file for this API
-Just tell me!
