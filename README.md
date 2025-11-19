@@ -1,9 +1,4 @@
-Here’s a clean, clear, and GitHub-ready **README.md** for your C mini–garbage collector project.
-It explains the idea, how it works, usage examples, limitations, and integration instructions.
-
----
-
-# 🗑️ Mini Garbage Collector for C
+# 🗑️ Simple Garbage Collector for C
 
 A tiny automatic-cleanup system built on top of `malloc()`.
 
