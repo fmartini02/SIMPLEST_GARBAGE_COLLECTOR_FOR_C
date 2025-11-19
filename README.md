@@ -115,8 +115,9 @@ These are commonly found in a standard 42-style `libft`.
   (you must manually call cleanup once you're done)
 * ❗ All allocated blocks are freed **together**
   (no per-pointer free function)
-* ⚠️ Thread-unsafe due to static storage
+* ⚠️ Thread-unsafe due to static storage (fixable by using mutex or specific var type)
 * ⚠️ If you store pointers allocated outside `ft_malloc()`, they **won’t** be tracked
+* ⚠️ Don't use free on stored memory, for avoiding duble frees 
 * 👌 Ideal for parsing, shell projects, game loops, or large chained operations
 
 ---
